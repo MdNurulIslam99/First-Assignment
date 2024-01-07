@@ -106,14 +106,45 @@ section .banner-content {
     margin: 5px 100px 50px 100px;
     font-weight: bold;
 }
-.midnight-title #join{
+
+.midnight-title #join {
     color: #FFFFFF;
     font-size: 15px;
     padding-left: 130px;
     margin-top: 50px;
 }
 
-.image-content{
+.image-content {
     padding: 90px;
+
+}
+
+/* Address section style */
+.address-info {
+    background-color:azure;
+    padding: 100px;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+
+.address .address-title {
+    color: #070211;
+    font-size: 30px;
+    text-align: center;
+}
+
+.address-details{
+    color: #F00;
+}
+
+.address .join {
+    color: #FFF;
+    font-size: 20px;
+    text-align: center;
+    border-radius: 7px;
+    background: #F00;
+    border: 0;
+    padding: 10px;
+    margin: 50px 470px;
 
 }
