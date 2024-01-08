@@ -333,7 +333,22 @@ section .rectangle-pic {
     width: 550px;
     margin-top: 10px;
 }
+/* image section style */
+.portfolio .image-info-section1{
+    background-image: url('../images/Rectangle\ 3.png'), url('../images/Rectangle\ 4.png'), url('../images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    background-position: left top, top center, top right, left bottom;
+    padding: 250px;
+    margin-top: 20px ;
+}
 
+.portfolio .image-info-section2{
+    background-image: url('../images/Rectangle\ 6.png'), url('../images/Rectangle\ 7.png'), url('../images/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+    background-position: left top, top center, top right, left bottom;
+    padding: 250px;
+    margin-top: 0px;
+}
 
 /* footer section style*/
 /* .container-section {
