@@ -273,7 +273,7 @@ section .festival-pic {
     font-size: 15px;
 }
 
-
+/* holiday section image */
 .holiday-section h4 {
     color: #070211;
     font-size: 15px;
@@ -295,6 +295,45 @@ section .festival-pic {
     margin: 8px 300px 0;
     width: 675px;
 }
+
+.holiday-image-content {
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 60px;
+    border-radius: 15px 0px 15px 15px;
+    background: #F00;
+    margin: 0;
+}
+
+section .rectangle-pic {
+    margin: 50px 0px 0px 925px;
+    gap: 0;
+    width: 350px;
+    height: 350px;
+    border-radius: 16px 16px 0px 0px;
+}
+
+/* portfolio section style */
+
+.portfolio h2 {
+    font-size: 15px;
+    margin-top: 70px;
+}
+
+.portfolio h1 {
+    color: #070211;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.portfolio p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 12px;
+    width: 550px;
+    margin-top: 10px;
+}
+
 
 /* footer section style*/
 /* .container-section {
