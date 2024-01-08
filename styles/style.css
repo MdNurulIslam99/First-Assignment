@@ -4,7 +4,7 @@
 
 }
 
-body {
+main {
     font-family: 'Inter', sans-serif;
     font-family: 'Merriweather', serif;
     margin: 50px 100px 0px 140px;
@@ -214,6 +214,7 @@ section .festival-pic {
 .Subscribe-info {
     background-color: #FF00000D;
     margin-top: 100px;
+    padding: 50px;
 
 }
 
@@ -240,7 +241,7 @@ section .festival-pic {
 .Subscribe-email {
     width: 300px;
     height: 40px;
-    border-radius: 50px 0px 0px 50px ;
+    border-radius: 50px 0px 0px 50px;
     background: #FFF;
     margin-left: 430px;
     margin-top: 20px;
@@ -260,13 +261,40 @@ section .festival-pic {
     width: 100px;
     height: 40px;
     position: absolute;
-    gap:0;
+    gap: 0;
     margin-top: 20px;
     border: 0;
 
 }
+
 .Subscribe-title .Subscribe-span {
     color: #FFF;
     text-align: center;
     font-size: 15px;
 }
+
+/* footer section style*/
+/* .container-section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 70px;
+    background: #070211;
+    padding: 150px;
+    position: relative;
+}
+
+.container-section  p{
+    color: #FFF;
+    font-size: 15px;
+    height: 100px;
+    margin: 0;
+}
+
+.footer-contact img{
+    display: flex;
+    position: ;
+    gap:0;
+}
+..footer-contact p{
+    display: inline;
+} */
