@@ -207,13 +207,112 @@ section .festival-pic {
     margin-top: 50px;
     border-radius: 400px;
     border: 10px solid #F00;
+    padding: 20px;
 }
+
+
+/* holiday section image */
+.holiday-section h4 {
+    color: #070211;
+    font-size: 15px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+.holiday-section h1 {
+    color: #070211;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 8px;
+}
+
+.holiday-section p {
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-size: 15px;
+    margin: 8px 300px 0;
+    width: 675px;
+}
+
+.holiday-image-content {
+    background-image: url('../images/Rectangle\ 2.png');
+    background-repeat: no-repeat;
+    background-position: bottom;
+    padding: 100px;
+    border-radius: 15px 0px 15px 15px;
+    background: #F00;
+    margin: 0;
+}
+
+section .rectangle-pic {
+    margin: 50px 0px 0px 850px;
+    gap: 0;
+    width: 350px;
+    height: 430px;
+    border-radius: 16px 16px 0px 0px;
+}
+.popcon{
+    height: 300px;
+    width: 400px;
+    margin-left: 50px;
+    margin-bottom: -150px;
+
+}
+
+.hot-girl{
+    margin-left: 390px;
+
+}
+.fifty-parsent{
+   margin-left: -600px;
+   padding-top:-50px ;
+   z-index: 50px;
+
+}
+
+/* portfolio section style */
+
+.portfolio h2 {
+    font-size: 15px;
+    margin-top: 70px;
+}
+
+.portfolio h1 {
+    color: #070211;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+.portfolio p {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 12px;
+    width: 550px;
+    margin-top: 10px;
+}
+
+/* image section style */
+.portfolio .image-info-section1 {
+    background-image: url('../images/Rectangle\ 3.png'), url('../images/Rectangle\ 4.png'), url('../images/Rectangle\ 5.png');
+    background-repeat: no-repeat;
+    background-position: left top, top center, top right, left bottom;
+    padding: 250px;
+    margin-top: 20px;
+}
+
+.portfolio .image-info-section2 {
+    background-image: url('../images/Rectangle\ 6.png'), url('../images/Rectangle\ 7.png'), url('../images/Rectangle\ 8.png');
+    background-repeat: no-repeat;
+    background-position: left top, top center, top right, left bottom;
+    padding: 250px;
+    margin-top: 0px;
+}
+
 
 /* Subscribe style css */
 
 .Subscribe-info {
     background-color: #FF00000D;
-    margin-top: 100px;
+    margin-top: 50px;
     padding: 50px;
 
 }
@@ -273,106 +372,59 @@ section .festival-pic {
     font-size: 15px;
 }
 
-/* holiday section image */
-.holiday-section h4 {
-    color: #070211;
-    font-size: 15px;
-    text-align: center;
-    margin-top: 100px;
-}
-
-.holiday-section h1 {
-    color: #070211;
-    font-size: 50px;
-    text-align: center;
-    margin-top: 8px;
-}
-
-.holiday-section p {
-    color: rgba(7, 2, 17, 0.60);
-    text-align: center;
-    font-size: 15px;
-    margin: 8px 300px 0;
-    width: 675px;
-}
-
-.holiday-image-content {
-    background-image: url('../images/Rectangle\ 2.png');
-    background-repeat: no-repeat;
-    background-position: bottom;
-    padding: 60px;
-    border-radius: 15px 0px 15px 15px;
-    background: #F00;
-    margin: 0;
-}
-
-section .rectangle-pic {
-    margin: 50px 0px 0px 850px;
-    gap: 0;
-    width: 350px;
-    height: 430px;
-    border-radius: 16px 16px 0px 0px;
-}
-
-/* portfolio section style */
-
-.portfolio h2 {
-    font-size: 15px;
-    margin-top: 70px;
-}
-
-.portfolio h1 {
-    color: #070211;
-    font-size: 30px;
-    margin-top: 10px;
-}
-
-.portfolio p {
-    color: rgba(7, 2, 17, 0.60);
-    font-size: 12px;
-    width: 550px;
-    margin-top: 10px;
-}
-/* image section style */
-.portfolio .image-info-section1{
-    background-image: url('../images/Rectangle\ 3.png'), url('../images/Rectangle\ 4.png'), url('../images/Rectangle\ 5.png');
-    background-repeat: no-repeat;
-    background-position: left top, top center, top right, left bottom;
-    padding: 250px;
-    margin-top: 20px ;
-}
-
-.portfolio .image-info-section2{
-    background-image: url('../images/Rectangle\ 6.png'), url('../images/Rectangle\ 7.png'), url('../images/Rectangle\ 8.png');
-    background-repeat: no-repeat;
-    background-position: left top, top center, top right, left bottom;
-    padding: 250px;
-    margin-top: 0px;
-}
-
 
 /* footer section style*/
-/* .container-section {
+
+.footer-container{
+    background: #070211;
+}
+.container-section {
     display: flex;
     justify-content: space-between;
     margin-top: 70px;
-    background: #070211;
-    padding: 150px;
-    position: relative;
+    padding-top: 150px;
+    margin: 100px 40px 15px 100px;
+    
 }
 
-.container-section  p{
+.container-section p {
     color: #FFF;
     font-size: 15px;
     height: 100px;
     margin: 0;
 }
 
-.footer-contact img{
-    display: flex;
-    position: ;
-    gap:0;
+.footer-contact img {
+    width: 18px;
+    height: 16px;
+    
 }
-..footer-contact p{
-    display: inline;
-} */
+
+.footer-contact li {
+    list-style: none;
+    color: #FFF;
+    padding: 10px;
+}
+.icon {
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+   border-top : 2px solid #070211;
+   border-bottom: 2px solid #070211;;
+   padding: 20px;
+   margin: 0 40px 0 40px;
+}
+
+.icon:hover{
+    border-top : 2px solid rgb(34, 135, 243);
+   border-bottom: 2px solid rgb(34, 135, 243);
+}
+
+.footer-text{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #FFF;
+    font-size: 15px;
+    padding: 100px;
+}
