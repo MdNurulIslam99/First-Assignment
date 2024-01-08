@@ -307,10 +307,10 @@ section .festival-pic {
 }
 
 section .rectangle-pic {
-    margin: 50px 0px 0px 925px;
+    margin: 50px 0px 0px 850px;
     gap: 0;
     width: 350px;
-    height: 350px;
+    height: 430px;
     border-radius: 16px 16px 0px 0px;
 }
 
@@ -349,6 +349,7 @@ section .rectangle-pic {
     padding: 250px;
     margin-top: 0px;
 }
+
 
 /* footer section style*/
 /* .container-section {
